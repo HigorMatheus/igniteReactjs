@@ -1,11 +1,12 @@
-import React from 'react';
 
-// import { Container } from './styles';
+import RepositoryList from './components/RepositoryList';
+import './styles/global.scss';
+
 
 export  function App() {
   return (
      <div>
-         <h1> test corretam </h1>
+         <RepositoryList/>
      </div>
   );
 }
