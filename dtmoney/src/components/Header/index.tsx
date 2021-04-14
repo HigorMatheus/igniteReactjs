@@ -1,10 +1,8 @@
-// import { useState } from "react";
-// import Modal from "react-modal";
-import { logoImg } from "../../assets";
-import { Container, Content } from "./styles";
+import { logoImg } from '../../assets'
+import { Container, Content } from './styles'
 type HeaderProps = {
-  onOpenTransactionModal: () => void;
-};
+  onOpenTransactionModal: () => void
+}
 export function Header({ onOpenTransactionModal }: HeaderProps) {
   return (
     <Container>
@@ -15,5 +13,5 @@ export function Header({ onOpenTransactionModal }: HeaderProps) {
         </button>
       </Content>
     </Container>
-  );
+  )
 }
